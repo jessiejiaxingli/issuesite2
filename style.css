@@ -27,6 +27,14 @@ a:active {
   text-decoration: none; 
 }
 
+ul{
+	margin-top: 0.2vmin;
+}
+
+.bpbg p{
+	margin-bottom: 0.3vmin;
+}
+
 .main{
 	display: flex;
 	flex-direction: column;
@@ -186,4 +194,183 @@ a:active {
 	justify-content: flex-end;
 	margin: 3vmin;
 	opacity: 0.3;
+}
+
+/*-----------------------------------------------*/
+.callout2{
+	display: flex;
+	background-image: url('forest2.jpg');
+	color: white;
+	font-weight: bolder;
+	font-size: 3em;
+	background-size: cover;
+	background-position: center;
+	align-items: center;
+	justify-content: center;
+	height: 75vh;
+	background-attachment: fixed;
+}
+
+.hrinfo{
+	display: flex;
+	background-color: #697E60;
+	border-radius: 5px;
+	font-size: 1.5em;
+	margin: 3vmin;
+	padding: 2.5vmin;
+	justify-content: center;
+	align-items: center;
+}
+
+.hrbg{
+	text-align: left;
+	color: white;
+}
+
+#pic1{
+	aspect-ratio: 1/1;
+	object-fit: cover;
+	width: 40vw;
+	border-radius: 5px;
+	margin-left: 3vmin;
+}
+
+.call3{
+	background-color: #3F523F;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	font-size: 2.5em;
+	margin-top: 6vmin;
+	margin-bottom: 0.5vmin;
+	margin-left: 3vmin;
+	margin-right: 3vmin;
+	padding: 2.5vmin;
+}
+
+.ytvid{
+	display: flex;
+	background-color: #3F523F;
+	border-radius: 5px;
+	justify-content: center;
+	margin: 3vmin;
+	padding: 2.5vmin;
+}
+
+/*-----------------------------------------------*/
+
+.callout3{
+	display: flex;
+	background-image: url('forest5.jpeg');
+	color: white;
+	font-weight: bolder;
+	font-size: 3em;
+	background-size: cover;
+	background-position: center;
+	align-items: center;
+	justify-content: center;
+	height: 75vh;
+	background-attachment: fixed;
+}
+
+.bpinfo{
+	display: flex;
+	background-color: #8C5E45;
+	border-radius: 5px;
+	font-size: 1.5em;
+	color: white;
+	margin: 3vmin;
+	padding: 2.5vmin;
+	justify-content: center;
+	align-items: center;
+}
+
+#pic2{
+	aspect-ratio: 1/1;
+	object-fit: cover;
+	width: 40vw;
+	border-radius: 5px;
+	margin-right: 3vmin;
+}
+
+.bpbg{
+	display: flex;
+	flex-direction: column;
+}
+
+.call4{
+	background-color: #533021;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	font-size: 2.5em;
+	margin-top: 6vmin;
+	margin-bottom: 0.5vmin;
+	margin-left: 3vmin;
+	margin-right: 3vmin;
+	padding: 2.5vmin;
+}
+
+/*-----------------------------------------------*/
+
+.callout4{
+	display: flex;
+	background-image: url('Among Giants 2.jpg');
+	color: white;
+	font-weight: bolder;
+	font-size: 3em;
+	background-size: cover;
+	background-position: center;
+	align-items: center;
+	justify-content: center;
+	height: 75vh;
+	background-attachment: fixed;
+}
+
+.exlink1{
+	display: flex;
+	margin: 3vmin;
+	margin-bottom: 0.1vmin;
+	margin-top: 1vmin;
+	gap: 10px;
+	justify-content: center;
+}
+
+.thumbnail1{
+	display: flex;
+	border-radius: 5px;
+	width: 100%;
+	height: 55vh;
+	justify-content: center;
+	align-items: center;
+	aspect-ratio: 1/1;
+	object-fit: cover;
+}
+
+.call5{
+	display: flex;
+	background-color: #7E875A;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	font-size: 2.5em;
+	margin-top: 6vmin;
+	margin-bottom: 0.5vmin;
+	margin-left: 3vmin;
+	margin-right: 3vmin;
+	padding: 2.5vmin;
+	justify-content: center;
+}
+
+.rinfo{
+	display: flex;
+	flex-direction: column;
+	background-color: #7E875A;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	font-size: 1.5em;
+	margin: 3vmin;
+	margin-top: 1vmin;
+	padding: 2.5vmin;
 }
